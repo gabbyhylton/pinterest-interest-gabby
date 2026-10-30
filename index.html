@@ -251,7 +251,7 @@ mark{background:var(--mark);color:var(--mark-ink);padding:0 .22em;border-radius:
   }).join("");
   FIELDS.forEach(function(f){var el=$("f-"+f.k); el.value = state.f[f.k] || (f.select?AREAS[0]:"")});
 
-  form.insertAdjacentHTML("afterend", FACTS);
+  //form.insertAdjacentHTML("afterend", FACTS);
 
   /* ---------- header ---------- */
   function renderHead(){
